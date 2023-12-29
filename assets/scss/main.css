@@ -6,6 +6,254 @@
 
 body,
 html {
-  font-family: "Akzidenz-Grotesk Pro";
+  font-family: "AkzidenzGrotesk", sans-serif;
   transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.navbar {
+  padding: 30px 0;
+}
+.navbar__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__links nav ul {
+  display: flex;
+}
+.navbar__links nav ul li {
+  list-style: none;
+}
+.navbar__links nav ul li a {
+  margin: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.navbar__section button {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+.navbar__section button img {
+  margin: 3px 0;
+}
+
+.info {
+  padding: 50px 0;
+}
+.info__intro {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+.info__footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 250px 0 0 0;
+}
+
+.title {
+  background-image: url("../img/ico/bg__watch.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 250px 0;
+}
+.title__content {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+}
+.title__content img {
+  margin: 100px 0;
+  width: 30%;
+}
+
+.burger__content {
+  display: flex;
+  justify-content: space-between;
+}
+.burger__img img {
+  max-width: 800px;
+}
+.burger__intro {
+  padding: 450px 0 0 0;
+}
+.burger__intro h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #363434;
+}
+.burger__intro h1 span {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.burger__subtitle {
+  padding: 20px 0 0 0;
+}
+
+.author {
+  padding: 100px 0;
+  color: #363434;
+}
+.author__intro-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
+.author__intro-left p {
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 0;
+}
+.author__intro-left h1 {
+  font-size: 113px;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+.author__intro-left h3 {
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 0;
+  margin: 25px 0;
+}
+.author__intro-left h3 span {
+  font-size: 113px;
+}
+.author__intro-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+}
+.author__intro-right p {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.author__intro-right p span {
+  font-size: 113px;
+}
+.author__intro-right h2 {
+  font-size: 48px;
+  letter-spacing: 0;
+}
+.author__intro-right h3 {
+  font-size: 48px;
+  letter-spacing: 0;
+}
+.author__intro-right h4 {
+  font-size: 48px;
+  letter-spacing: 0;
+}
+
+.round__content {
+  display: flex;
+  justify-content: space-between;
+}
+.round__item {
+  color: #2ba542;
+  text-align: center;
+  border: 10px solid #2ba542;
+  border-radius: 100%;
+  padding: 50px;
+}
+.round__item h1 span {
+  text-transform: uppercase;
+}
+
+.watch {
+  padding: 200px 0;
+}
+.watch__wrapper {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.watch__wrapper-item {
+  margin: 30px 0;
+}
+.watch__wrapper-item p {
+  font-size: 25px;
+  font-weight: 600;
+  max-width: 320px;
+  text-align: center;
+  margin: 70px auto;
+  color: #4c92da;
+  transform: rotate(-90deg);
+}
+.watch__wrapper-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.watch__cifer {
+  position: absolute;
+  left: 40%;
+  top: 17%;
+  z-index: 10000;
+}
+.watch__intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0 0 0;
+}
+.watch__title h1 {
+  font-size: 55px;
+  color: #363434;
+}
+.watch__subtitle p {
+  font-size: 22px;
+  font-weight: 300;
+  color: #363434;
+  max-width: 520px;
+}
+
+.luxe {
+  padding: 400px 0;
+  background-image: url("../img/luxe.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.corp {
+  margin: 100px 0;
+  padding: 400px 0;
+  background-image: url("../img/corp.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.corp__content {
+  display: flex;
+  justify-content: space-between;
+}
+.corp__content p {
+  color: #8d8888;
+  font-size: 22px;
+  max-width: 520px;
+  padding: 150px 0 0 0;
+}
+
+.footer {
+  background-color: #000;
+  padding: 50px 0;
+}
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__item {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
